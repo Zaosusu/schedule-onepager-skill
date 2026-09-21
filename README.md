@@ -64,8 +64,8 @@ DB 路径自动解析：`--db` > 环境变量 `DAILY_HISTORY_DB` > 脚本同目�
 ## 快速上手
 
 ```bash
-git clone https://github.com/Zaosusu/schedule-onepager.git
-cd schedule-onepager
+git clone https://github.com/Zaosusu/schedule-onepager-skill.git
+cd schedule-onepager-skill
 
 # 建自己的私有副本（my/ 已在 .gitignore 里）
 mkdir -p my
@@ -116,9 +116,9 @@ SMTP_USER='you@example.com' SMTP_PASS='<授权码>' \
 这个仓库本身就是一个 skill。拷进助手的 skill 目录：
 
 ```bash
-cp -r schedule-onepager ~/.claude/skills/       # 全局
+cp -r schedule-onepager-skill ~/.claude/skills/schedule-onepager/       # 全局
 # 或
-cp -r schedule-onepager .claude/skills/         # 只在某个项目里
+cp -r schedule-onepager-skill .claude/skills/schedule-onepager/         # 只在某个项目里
 ```
 
 之后你直接说人话就行：

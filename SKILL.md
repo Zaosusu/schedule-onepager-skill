@@ -331,7 +331,7 @@ SMTP_USER='you@example.com' SMTP_PASS='<向使用者索取>' \
 
 ## 发布 / 脱敏 push 流程（公开仓库，强制）
 
-**本仓库是公开 GitHub 仓库（github.com/Zaosusu/schedule-onepager），任何 push 前必须脱敏。** 规则：
+**本仓库是公开 GitHub 仓库（github.com/Zaosusu/schedule-onepager-skill），任何 push 前必须脱敏。** 规则：
 
 **1. 个人数据绝不入库。** 所有真实数据只存在于 `my/`（已被 `.gitignore` 排除）：`my/personal.db`、`my/*.html`、`my/创客中国/` 等。push 前检查：
 
