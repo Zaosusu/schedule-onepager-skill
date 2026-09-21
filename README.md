@@ -116,9 +116,9 @@ SMTP_USER='you@example.com' SMTP_PASS='<授权码>' \
 这个仓库本身就是一个 skill。拷进助手的 skill 目录：
 
 ```bash
-cp -r schedule-onepager-skill ~/.claude/skills/schedule-onepager/       # 全局
+cp -r schedule-onepager-skill ~/.claude/skills/       # 全局
 # 或
-cp -r schedule-onepager-skill .claude/skills/schedule-onepager/         # 只在某个项目里
+cp -r schedule-onepager-skill .claude/skills/         # 只在某个项目里
 ```
 
 之后你直接说人话就行：

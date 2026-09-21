@@ -1,5 +1,5 @@
 <svg viewBox="0 0 680 470" width="100%" xmlns="http://www.w3.org/2000/svg" role="img">
-<title>schedule-onepager 架构图</title>
+<title>schedule-onepager-skill 架构图</title>
 <desc>一个 skill、一个 SQLite、一个统一 CLI，HTML 只是导出视图</desc>
 <defs>
   <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -8,7 +8,7 @@
 </defs>
 
 <rect x="40" y="30" width="600" height="420" rx="20" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
-<text x="340" y="58" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">schedule-onepager · 公开仓库（Zaosusu/schedule-onepager-skill）</text>
+<text x="340" y="58" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">schedule-onepager-skill · 公开仓库（Zaosusu/schedule-onepager-skill）</text>
 
 <g>
   <rect x="60" y="78" width="260" height="150" rx="12" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>

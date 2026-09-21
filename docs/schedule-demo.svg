@@ -1,5 +1,5 @@
 <svg viewBox="0 0 680 520" width="100%" xmlns="http://www.w3.org/2000/svg" role="img">
-<title>schedule-onepager 排期表示例</title>
+<title>schedule-onepager-skill 排期表示例</title>
 <desc>示例排期表渲染效果：主表 + 图例 + 页脚，数据全部虚构</desc>
 
 <rect x="40" y="40" width="600" height="468" rx="16" fill="#F4F6FB" stroke="#D8DCED" stroke-width="0.5"/>

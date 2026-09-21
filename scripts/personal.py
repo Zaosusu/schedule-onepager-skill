@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-schedule-onepager · 统一数据层 CLI
+schedule-onepager-skill · 统一数据层 CLI
 =================================
 
-一个 skill（schedule-onepager）同时维护三种互不耦合的个人时间数据：
+一个 skill（schedule-onepager-skill）同时维护三种互不耦合的个人时间数据：
   - schedule  排期表：已确定的承诺 / 赛事（带倒计时）
   - todo      今日待办：当天可勾选动作项（不与排期表关联）
   - history   每日历史：每天做了什么的流水账
@@ -558,7 +558,7 @@ def history_export(args, conn):
 # 参数解析
 # --------------------------------------------------------------------------- #
 def build_parser():
-    p = argparse.ArgumentParser(description="schedule-onepager 统一数据层 CLI")
+    p = argparse.ArgumentParser(description="schedule-onepager-skill 统一数据层 CLI")
     p.add_argument("--db", help="SQLite 库路径（默认：环境变量 PERSONAL_DB > 脚本同级 > <skill根>/my/personal.db）")
     sub = p.add_subparsers(dest="mode", required=True)
 

@@ -1,5 +1,5 @@
 ---
-name: schedule-onepager
+name: schedule-onepager-skill
 description: 把零散进来的行程信息归档成一张排期表，并在被明确要求时发送到使用者自己的邮箱；另含独立的「今日 TODO」与「每日历史记录」两种模式。一个 skill、一个 SQLite（personal.db，三张表：schedule / todo / history）、一个统一 CLI（personal.py）；HTML 只作导出视图。当使用者提供新行程（群公告截图、海报、赛事须知、约谈安排、口述日程）、要求查看/修改排期、说「今日待办」「我的 TODO」「今天做这几件事」「今天做了什么」「记录一下」「历史记录」时使用。不负责订票订房、不做冲突风险分析、不主动发邮件。
 agent_created: true
 ---

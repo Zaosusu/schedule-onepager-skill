@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-schedule-onepager · 邮件提醒触发器（直连 SMTP，免去两步确认）
+schedule-onepager-skill · 邮件提醒触发器（直连 SMTP，免去两步确认）
 =====================================
 
 两种模式：
